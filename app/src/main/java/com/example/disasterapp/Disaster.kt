@@ -1,4 +1,4 @@
-package com.example.disasterapp
-
-class Disaster {
-}
+data class Disaster(
+    val nameDisaster: String = "",
+    val disasterType: String = ""
+)

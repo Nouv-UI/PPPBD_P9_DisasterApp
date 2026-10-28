@@ -3,6 +3,9 @@ plugins {
 }
 
 android {
+    buildFeatures {
+        viewBinding = true
+    }
     namespace = "com.example.disasterapp"
     compileSdk {
         version = release(37)
@@ -29,9 +32,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    buildFeatures {
-        viewBinding = true
-    }
+
 }
 
 dependencies {
